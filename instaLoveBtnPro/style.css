@@ -18,10 +18,12 @@ body{
 
 }
 #container{
+    position: relative;
     height: 390px;
     width: 280px;
     background-color: rgb(224, 224, 224);
     border-radius: 10px;
+    overflow: hidden;
 }
 
 #container img{
@@ -30,4 +32,15 @@ body{
     width: 100%;
     object-fit: cover;
     
+}
+
+#container i{
+    color: #fff;
+    font-size: 70px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%) scale(0);
+    opacity: 0.8;
+
 }
