@@ -47,7 +47,7 @@ body{
 }
 
 button {
-    background-color: #080707;
+    background-color: #030101;
     border-radius: 20px;
     height: 40px;
     width: 100px;
@@ -59,4 +59,13 @@ button {
 button:hover{
     background-color: #f77d7d;
     
+}
+
+.cursur{
+    height: 20px;
+    width: 20px;
+    background-color: #b1b1b1;
+    border-radius: 50%;
+    position: absolute;
+    transition: all linear 0.2s;
 }
