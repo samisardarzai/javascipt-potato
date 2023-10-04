@@ -15,7 +15,14 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
+    gap: 100px;
 
+}
+h1{
+    margin-left: 300px;
+    margin-bottom: 200px;
+     font-size: 50px;
+    color: #fff;
 }
 #container{
     position: relative;
@@ -62,6 +69,7 @@ button:hover{
 }
 
 .cursur{
+   mix-blend-mode: difference;
     height: 20px;
     width: 20px;
     background-color: #b1b1b1;
