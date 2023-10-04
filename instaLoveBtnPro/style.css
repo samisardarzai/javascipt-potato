@@ -41,7 +41,22 @@ body{
     top: 50%;
     left: 50%;
     transform: translate(-50%,-50%) scale(0);
-    opacity: 0.8;
-    transition: all ease 0.5s;
+    opacity: 0;
+    transition: transform ease 0.5s;
 
+}
+
+button {
+    background-color: #080707;
+    border-radius: 20px;
+    height: 40px;
+    width: 100px;
+    color: #f1eaea;
+    font-size: 20px;
+    margin-top: 470px;
+    margin-left: -190px;
+}
+button:hover{
+    background-color: #f77d7d;
+    
 }
